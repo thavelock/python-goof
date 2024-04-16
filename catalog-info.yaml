@@ -8,7 +8,7 @@ metadata:
   labels:
     tier: "3"
   links:
-    - url: https://www.notion.so/roadie/customer-profile-manager-e067465e56a14ae9b0507f8559f6aa26
+    - url: https://www.notion.so/roadie/python-goof
       title: Datadog
       icon: dashboard
   tags:
@@ -18,7 +18,7 @@ metadata:
   annotations:
     github.com/project-slug: snyk-cs-goof-org/python-goof
     # The Sentry organization is stored in the app-config.yaml of the Backstage instance.
-    sentry.io/project-slug: customer-profile-manager
+    sentry.io/project-slug: python-goof
     cloud.google.com/function-ids: projects/roadie-dev-283705/locations/europe-west1/functions/test-fn-1
     backstage.io/techdocs-ref: dir:.
     pagerduty.com/service-id: PZDAG59
@@ -75,7 +75,7 @@ spec:
   owner: group:snyk-cs-goof/ops
   system: sample-system
   definition:
-    $text: https://github.com/snyk-cs-goof/customer-profile-manager/blob/main/api-spec.yaml
+    $text: https://github.com/snyk-cs-goof/python-goof/blob/main/api-spec.yaml
 
 ---
 apiVersion: backstage.io/v1alpha1
